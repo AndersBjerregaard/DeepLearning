@@ -80,7 +80,7 @@ class AdalineGD:
     def predict(self, X):
         """Return class label after unit step"""
         return np.where(self.activation(self.net_input(X))
-                        >= 0.05, 1, 0)
+                        >= 0.5, 1, 0)
 
 class AdalineSGD:
     """ADAptive LInear NEuron classifier.
