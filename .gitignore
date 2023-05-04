@@ -349,3 +349,6 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 adaline/.vscode/settings.json
+recurrent-neural-networks/datasets/Answers.csv
+recurrent-neural-networks/datasets/Questions.csv
+recurrent-neural-networks/datasets/Tags.csv
